@@ -1,0 +1,277 @@
+moment.locale('bn');
+jQuery(function($) {
+  $("#latest-bangla-news").rss("https://news.google.com/news/rss/?ned=bn_bd&gl=BD&hl=bn",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts col-md-12"><ul class="post-info-f">{entries}</ul></div></div>',
+    entryTemplate: '<li class="bn-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li>',
+    dateFormat: 'LLL',
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 20,
+  })
+})
+jQuery(function($) {
+  $("#prothomalo").rss("http://www.prothom-alo.com/feed/",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LT', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#bbc-bangla").rss("http://www.bbc.com/bengali/index.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#kalerkontho").rss("http://www.kalerkantho.com/rss.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#bdprotidin").rss("http://www.bd-pratidin.com/rss",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#jagonews").rss("https://www.jagonews24.com/rss/rss.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#bdnews24").rss("http://bangla.bdnews24.com/?widgetName=rssfeed&widgetId=1151&getXmlFeed=true",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+jQuery(function($) {
+  $("#voa").rss("https://www.voabangla.com/api/zkrgpemugm",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#jugantor").rss("https://www.jugantor.com/feed/rss.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#pt").rss("http://parstoday.com/bn/rss",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#inqilab").rss("https://www.dailyinqilab.com/feed",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#thedailystar").rss("https://www.thedailystar.net/top-news/rss.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#ittefaq").rss("https://news.google.com/rss/search?q=ittefaq&hl=bn&gl=BD&ceid=BD%3Abn",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#dainikamadershomoy").rss("https://news.google.com/rss/search?q=amader+shomoy&hl=bn&gl=BD&ceid=BD%3Abn",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#dailynayadiganta").rss("https://news.google.com/rss/search?q=nayadiganta&hl=bn&gl=BD&ceid=BD%3Abn",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#mzamin").rss("https://news.google.com/rss/search?q=mzamin&hl=bn&gl=BD&ceid=BD%3Abn",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#banglanews24").rss("https://www.banglanews24.com/rss/rss.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#banglatribune").rss("http://www.banglatribune.com/feed/",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#janakantha").rss("https://news.google.com/rss/search?q=janakantha&hl=bn&gl=BD&ceid=BD%3Abn",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+jQuery(function($) {
+  $("#somoynews").rss("https://news.google.com/rss/search?q=somoynews+tv&hl=bn&gl=BD&ceid=BD%3Abn",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#rtvonline").rss("https://www.rtvonline.com/feed/latest-rss.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#ntvbd").rss("https://www.ntvbd.com/rssfeeds/rss.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'bn',
+    effect: 'show',
+    limit: 10,
+  })
+})
+

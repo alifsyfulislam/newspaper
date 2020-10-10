@@ -1,0 +1,327 @@
+moment.locale('en');
+jQuery(function($) {
+  $("#latest-world-news").rss("https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL',
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 20,
+  })
+})
+
+
+jQuery(function($) {
+  $("#nytimes").rss("https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL',
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+jQuery(function($) {
+  $("#hindu").rss("https://www.thehindu.com/news/feeder/default.rss",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LT', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#ndtv").rss("http://feeds.feedburner.com/ndtvnews-top-stories",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#bbc").rss("hhttp://feeds.bbci.co.uk/news/rss.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#asia").rss("https://news.google.com/rss/search?q=asia&hl=en-US&gl=US&ceid=US:en",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#europe").rss("https://news.google.com/rss/search?q=europe&hl=en-US&gl=US&ceid=US:en",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#middle-east").rss("https://news.google.com/rss/search?q=middle-east&hl=en-US&gl=US&ceid=US:en",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#africa").rss("https://news.google.com/rss/search?q=africa&hl=en-US&gl=US&ceid=US:en",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#cnn").rss("http://rss.cnn.com/rss/cnn_latest.rss",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#aljazeera").rss("https://www.aljazeera.com/xml/rss/all.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#theguardian").rss("https://www.theguardian.com/world/rss",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+jQuery(function($) {
+  $("#timesofindia").rss("https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+jQuery(function($) {
+  $("#reuters").rss("http://feeds.reuters.com/reuters/topNews",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+
+jQuery(function($) {
+  $("#dawn").rss("https://news.google.com/rss/search?q=DAWN.com&?hl=en-PK&hl=en-PK&gl=PK&ceid=PK:en",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+
+
+jQuery(function($) {
+  $("#chinadaily").rss("https://news.google.com/rss/search?q=China+Daily&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#washingtonpost").rss("https://news.google.com/rss/search?q=The+Washington+Post&hl=en-US&gl=US&ceid=US%3Aen",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+jQuery(function($) {
+  $("#dailystar").rss("https://www.thedailystar.net/top-news/rss.xml",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+jQuery(function($) {
+  $("#australia").rss("https://news.google.com/rss?hl=en-AU&gl=AU&ceid=AU:en",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+jQuery(function($) {
+  $("#north-america").rss("https://news.google.com/rss/search?q=north+america+news&hl=en-US&gl=US&ceid=US%3Aen",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#south-america").rss("https://news.google.com/rss/search?q=south+america+news&hl=en-US&gl=US&ceid=US%3Aen",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+
+jQuery(function($) {
+  $("#russia").rss("https://news.google.com/rss?hl=ru&gl=RU&ceid=RU%3Aru",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+
+jQuery(function($) {
+  $("#uk").rss("https://news.google.com/rss?hl=en-GB&gl=GB&ceid=GB%3Aen",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+jQuery(function($) {
+  $("#canada").rss("https://news.google.com/rss?hl=en-CA&gl=CA&ceid=CA:en",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+jQuery(function($) {
+  $("#new-zealand").rss("https://news.google.com/rss?hl=en-NZ&gl=NZ&ceid=NZ:en",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
+
+jQuery(function($) {
+  $("#brasil").rss("https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-419",
+  {
+    layoutTemplate: '<div class="row"><div class="blog-posts">{entries}</div></div>',
+    entryTemplate: '<div class="post-item col-md-12"><article class="post-content main-border"><div class="post-info-container"><ul class="post-info"><li class="bangla-headline-single"><h3><i class="fa fa-book post-icon"></i> <a href="../../../../../../index.html" target="_blank">{title}</a></h3><p><i class="fa fa-book fa-calendar"></i> {date}</p></li></ul></div></article></div>',
+    dateFormat: 'LLL', 
+    dateLocale: 'en-gb',
+    effect: 'show',
+    limit: 10,
+  })
+})
+
